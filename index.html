@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>bruno disney</title>
+</head>
+<style type="text/css">
+	#disney{
+		text-align: center;
+		margin-top: 200px;
+		font-size: 200px;
+	}
+
+	#butao{
+		position: absolute;
+		margin-left: 620px;
+		margin-bottom: 300px;
+		width: 100px;
+		height: 50px;
+		
+	}
+
+	#imgValidator{
+		
+		display: block;
+		
+		margin-left: 640px;
+
+	}
+
+	
+</style>
+<body id="cor">
+	<h1 id="disney" onclick="trocarCor()">XD</h1>
+
+	<img id="imgValidator" src="http://www.w3.org/QA/Tools/I_heart_validator">
+
+	<button id="butao"  onclick="mudarCorzita()">Cor</button>
+
+	
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+
+		
+
+		setInterval(function trocarCor(){ document.getElementById("disney").style.color = "red" }, 300);
+		setInterval(function trocarCor(){ document.getElementById("disney").style.color = "green" }, 400);
+		setInterval(function trocarCor(){ document.getElementById("disney").style.color = "blue" }, 500);
+
+		function mudarCorzita(){
+			document.getElementById("cor").style.backgroundColor = "gray";
+			
+		}
+			
+
+
+	</script>
+
+	
+
+</body>
+</html>
