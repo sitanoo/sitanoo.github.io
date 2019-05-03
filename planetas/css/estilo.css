@@ -66,4 +66,77 @@
 			text-decoration: none;
 		}
 
+		.ativo{
+			background-color:cornflowerblue;
+			border: 1px solid white;
+		}
+
+		table{
+			border-collapse: collapse;
+			background-color: white; 
+		}
+
+		td{
+			border-collapse: collapse;
+			border: 2px solid black;
+			color: black;
+			text-align: center;
+		}
+
+		#tituloTabela{
+			color: black;
+			text-align: center;
+			font-size: 30px;
+		}
+
+		#rodapeTabela{
+			color: black;
+			text-align: center;
+		}
+
+		.mercurio{
+			background-color: brown;
+		}
+
+		.venus{
+			background-color: yellow;
+		}
+
+		.terra{
+			background-color: blue;
+		}
+
+		.marte{
+			background-color: red;
+		}
+
+		.jupter{
+			background-color: orange;
+		}
+
+		.saturno{
+			background-color: #DF7401;
+		}
+
+		.urano{
+			background-color: #2ECCFA;
+		}
+
+		.nepturno{
+			background-color: #045FB4;
+		}
+
+		button{
+			display: block;
+			margin-left: 90px;
+		}
+
+		form{
+			border: 2px solid blue;
+			width:270px;
+
+		}
+
+
+
 		
